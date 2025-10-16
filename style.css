@@ -1,13 +1,14 @@
 * {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 :root{
   font-family: "open sans" ;
   line-height: 150%;
   color: #333333;
 }
-
 
 #page {
   box-sizing: border-box;
@@ -18,88 +19,135 @@ padding: 0;
   border-radius: 24px;
   margin: 80px auto 80px;
 }
+
 img {
   border-radius: 28px;  /* Adicionar o arredondamento da borda */
   width: 100%; /* imagem ocupa 100% do tamanho disponível pra ela */
 }
+
 main {
-  box-sizing: border-box;
   width: 1280px;
   height: 3279px;
   padding: 24px;
   background-color: #ffffff;
   margin: 48px auto 28px;
 }
-h1{
+
+h1 {
   font-size: 36px;
   line-height: auto;
   margin-bottom: 40px;
 }
-h2{
+
+h2 {
   font-size: 32px;
   line-height: auto;
   margin-bottom: 16px;
 }
-h3, h4, h5{
+
+h3, h4, h5 {
   font-size: 28px;
   line-height: auto;
   margin-top: 20px;
   margin-bottom: 10px;
- 
 }
-p{
-  font-size: 16px;
 
+p {
+  font-size: 16px;
 }
-ul{
+
+ul {
   list-style: none;
 }
 
- #about p:first-of-type, #Paraosamantesdehistória  p:first-of-type  { 
+#about p:first-of-type, #Paraosamantesdehistória  p:first-of-type  { 
   font-weight: bold;
   text-transform: uppercase;
   color: #E1624F;
   font-size: 16px;
   margin-bottom: 24px;
- }
- main{
+}
+
+main {
   padding: 56px 80px 169px;
- }
- #about p:last-of-type{
-font-style: italic;
-text-align: center;
-margin-top: 24px;
-margin-bottom: 40px;
- }
- #Paraosamantesdehistória  p:first-of-type{
+}
+
+#about p:last-of-type{
+  font-style: italic;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+#Paraosamantesdehistória  p:first-of-type{
   margin-top: 64px;
- }
- #Paraosamantesdehistória  p:last-of-type{
+}
+
+#Paraosamantesdehistória  p:last-of-type{
   margin-bottom: 64px;
- }
- #destino1 p:nth-child(4){
+}
+
+#destino1 p:nth-child(4){
   margin-bottom: 48px;
   margin-top: 20px;
   font-weight: bold;
- }
+}
 
- #destino2 p:nth-child(4){
+#destino1 p span {
+  color:#0C51A7 
+}
+
+#destino2 p span {
+  color:#0C51A7 
+}
+
+#destino2 p:nth-child(4){
   margin-bottom: 48px;
   margin-top: 20px;
-   font-weight: bold;
- }
- #destino3 p:nth-child(4){
+  font-weight: bold;
+}
+
+#destino3 p:nth-child(4){
   margin-top: 20px;
-    font-weight: bold;
- }
-  #destino3 ul:nth-child(5){
- 
-    font-weight: bold;
- }
- #final p:nth-child(1){
-  margin-top: 80px;
+  font-weight: bold;
+}
+
+#destino3 ul li {
+  font-weight: bold;
+}
+
+#destino3 li:nth-child(1) {
+  color: #591B98
+}
+
+#destino3 li:nth-child(2) {
+  color: #E5245E
+}
+
+#destino3 li:nth-child(3) {
+  color: #E95E10;
+  margin-bottom: 50px;
+}
+
+#final {
+  border-top: 1px solid lightgray;
+}
+
+#final p:nth-child(1) {
+  margin-top: 30px;
   text-align: center;
- }
- footer{
+}
+
+footer p{
   font-family: "open sans";
- }
+  margin: 66px auto 0;
+  text-align: center;
+}
+
+footer span{
+  line-height: 10px;
+}
+
+#divider-1 {
+  border-top: 1px solid lightgray;
+}
